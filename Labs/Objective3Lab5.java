@@ -6,6 +6,8 @@ public class Objective3Lab5 {
 
     Scanner input = new Scanner(System.in);
 
+    firstNumber = 0;
+    secondNumber = 0;
     sum = 0;
     System.out.println();
     System.out.println( "Please enter a number:" );
