@@ -26,9 +26,21 @@ public class ComparingNumbers {
     if ( first > second ) {
       System.out.println( first + " is GREATER THAN " + second );
     }
+    if ( first != second )
+      System.out.println( first + " is NOT EQUAL TO " + second );
+      // Drill 1
+      System.out.println( "Hey." );
+      // Here "Hey" prints no matter what because only the first statement
+      // after "if" runs when the condition completes. Then execution resumes.
+
+    // Drill 2
     if ( first != second ) {
       System.out.println( first + " is NOT EQUAL TO " + second );
+      System.out.println( "Hey." );
     }
+    // Here "Hey" will only print as part of the if block - so if the condition
+    // does not apply, "Hey" does not print.
+
     System.out.println();
   }
 }
