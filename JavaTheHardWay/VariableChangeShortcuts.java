@@ -55,10 +55,10 @@ public class VariableChangeShortcuts {
     while (i < 10) {
       i++;
     }
-
     System.out.println( "i: " + i );
     System.out.println();
 
     /* oh yeah, I'm the boss, oh yeah, I'm the boss */
+
   }
 }
