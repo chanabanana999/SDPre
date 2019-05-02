@@ -9,7 +9,8 @@ public class SecretWord {
     System.out.print( "What's the secret word? " );
     guess = keyboard.next();
 
-    if (guess.equals(secret) ) {
+    // Drill adds OR test
+    if (guess.equals(secret) || guess.equals("Amazon") ) {
       System.out.println( "That's correct!" );
     }
     else {
