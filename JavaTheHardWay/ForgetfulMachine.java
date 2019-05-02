@@ -19,6 +19,10 @@ public class ForgetfulMachine {
     keyboard.next();
 
     System.out.println();
+    
+    /* The second question blows up when I type a word instead of a number. */
+    /* The third question also blows up when I type a word instead of a number
+    because it's expecting a double, not a string. */
 
   }
 }
