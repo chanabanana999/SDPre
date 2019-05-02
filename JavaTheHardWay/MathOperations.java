@@ -33,5 +33,16 @@ public class MathOperations {
     both = one + two;
     System.out.println( both );
     System.out.println();
+
+    /* Study Drill below */
+    int drill1, drill2;
+
+    drill1 = ( 10 + 10) * 2;
+    drill2 = ( 20 + 30) / 2;
+    System.out.println( "It wasn't explicitly stated to use these values at all, ");
+    System.out.println( "so this may be an unwanted feature. Nevertheless, ");
+    System.out.println( "here they are: " + drill1 + " and " + drill2 );
+    System.out.println();
+    System.out.println();
   }
 }
