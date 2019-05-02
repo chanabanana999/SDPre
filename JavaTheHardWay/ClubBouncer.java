@@ -9,6 +9,10 @@ public class ClubBouncer {
       System.out.println();
       System.out.println( "You are allowed to enter the club." );
     }
+    // Drill below
+    // System.out.println( "Some garbage message." );
+    // This did not work because the "else" is detached from "if". Error is:
+    // 'else' without 'if'.
     else {
       System.out.println();
       System.out.println( "You are not allowed to enter the club." );
