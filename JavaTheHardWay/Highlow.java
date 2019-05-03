@@ -31,7 +31,7 @@ public class Highlow {
       System.out.print( "Try again.\n> " );
       guess = keyboard.nextInt();
     }
-    System.out.println( "You guessed it! What are te odds?!?" );
+    System.out.println( "You guessed it! What are the odds?!?" );
     System.out.println();
   }
 }
