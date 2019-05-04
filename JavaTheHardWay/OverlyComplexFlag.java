@@ -10,6 +10,9 @@ public class OverlyComplexFlag {
     print48Ohs();
     print48Colons();
     print48Ohs();
+    out.println();
+    printPledge();
+    out.println();
   }
 
   public static void print48Colons() {
@@ -37,7 +40,7 @@ public class OverlyComplexFlag {
   }
 
   public static void print5Stars() {
-    out.print( "|  *  *  *  *  *   " );
+    out.print( "|   *  *  *  *  *  " );
   }
 
   public static void printSixStarLine() {
