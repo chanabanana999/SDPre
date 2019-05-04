@@ -59,7 +59,12 @@ public class PigDice {
           System.out.print( ctot + " points.\n");
           }
 
-        } while ( ptot < 100 && ctot < 100 );
+          // Line below is for the exercise, and it works.
+        // } while ( ptot < 100 && ctot < 100 );
+
+        // Line below is for the study drill. I *think* it works but have
+        // not tested this awesomely.
+        } while ( ptot < 20 || (ptot + ctot) < 100 );
 
         if ( ptot > ctot ) {
           System.out.println( "Humanity wins!" );
